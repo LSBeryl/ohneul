@@ -26,15 +26,15 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
-  @media (max-width: 768px) {
-    justify-content: center;
-  }
 `;
 
 const Logo = styled(Link)`
   color: #000;
   text-decoration: none;
   font-size: 3rem;
+  @media (max-width: 768px) {
+    font-size: 2.3rem;
+  }
 `;
 
 const Menus = styled.div`
@@ -46,4 +46,7 @@ const Menu = styled(Link)`
   color: #9d8e72;
   text-decoration: none;
   font-size: 1.5rem;
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+  }
 `;

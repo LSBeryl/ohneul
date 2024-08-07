@@ -101,6 +101,9 @@ const Box = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 0.5rem;
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+  }
 `;
 
 const Menu = styled.div`
@@ -121,6 +124,9 @@ const Menu = styled.div`
       justify-content: center;
       align-items: center;
       cursor: pointer;
+      @media (max-width: 768px) {
+        font-size: 0.85rem;
+      }
     }
   }
 `;

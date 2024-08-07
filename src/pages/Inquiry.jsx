@@ -67,10 +67,17 @@ const Titles = styled.div`
 const Title = styled.div`
   font-size: 2rem;
   font-weight: bold;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Subtitle = styled.div`
   line-height: 1.2rem;
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
 `;
 
 const Form = styled.form`
@@ -94,6 +101,9 @@ const MessageContainer = styled.div`
       position: relative;
       top: 0.5rem;
     }
+    @media (max-width: 768px) {
+      font-size: 0.9rem;
+    }
   }
   @media (max-width: 1024px) {
     flex-direction: column;
@@ -111,6 +121,9 @@ const Message = styled.textarea`
   padding: 0.5rem;
   background: #f4ebd9;
   font-size: 1rem;
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+  }
   /* font-family: "Pretendard"; */
 `;
 
@@ -131,5 +144,8 @@ const Button = styled.input`
   cursor: pointer;
   &:hover {
     background: #9c8d71;
+  }
+  @media (max-width: 768px) {
+    font-size: 1rem;
   }
 `;
